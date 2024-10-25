@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ManajemenNilaiSiswa {
+public class ManajemenNilaiSiswa06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int totalSiswa = 0;
@@ -44,9 +44,9 @@ public class ManajemenNilaiSiswa {
             System.out.println("Jumlah siswa dengan nilai di bawah rata-rata: " + jumlahDibawahRatarata);
             
             if (jumlahDiatasRatarata > totalSiswa / 2) {
-                System.out.println("Jumlah siswa dengan nilai di atas rata-rata:");
+                System.out.println("Jumlah siswa dengan nilai di atas rata-rata: ");
             } else {
-                System.out.println("Jumlah siswa dengan nilai di bawah rata-rata:");
+                System.out.println("Jumlah siswa dengan nilai di bawah rata-rata: ");
             }
         } else {
             System.out.println("Tidak ada siswa yang dimasukkan");
